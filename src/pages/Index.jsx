@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Heading, Box, Image, Button } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -9,7 +10,7 @@ const Index = () => {
         <Box boxSize="sm">
           <Image src="/images/recipe-image.jpg" alt="Delicious Recipe" />
         </Box>
-        <Button colorScheme="teal" size="lg">Get Started</Button>
+        <Button as={RouterLink} to="/submit-recipe" colorScheme="teal" size="lg">Submit a Recipe</Button>
       </VStack>
     </Container>
   );
