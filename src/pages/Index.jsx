@@ -1,7 +1,6 @@
 import { Container, Text, VStack, Heading, Box, Image, Button, HStack, Icon } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
-import { Link as RouterLink } from "react-router-dom";
 
 import { useState } from "react";
 
